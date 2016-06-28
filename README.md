@@ -26,7 +26,7 @@ var unirest = require('unirest');
 
 ## Creating Requests
 
-You're probably wondering how by using **Unirest** makes creating requests easier. Besides automatically supporting gzip, and parsing responses, lets start with a basic working example:
+**Unirest** makes creating requests easier. Besides automatically supporting gzip, and parsing responses, lets start with a basic working example:
 
 ```js
 unirest.post('http://mockbin.com/request')
